@@ -105,7 +105,7 @@ export default function SolutionsPage() {
                 ))}
                 <Link className="btn btn-ghost-ink btn-sm" href={r.href} style={{ justifySelf: "start", marginTop: 8 }}>
                   {r.label}
-                  <Arrow color="#0a5ea8" />
+                  <Arrow color="var(--deep)" />
                 </Link>
               </div>
             </div>
@@ -165,7 +165,7 @@ export default function SolutionsPage() {
       </section>
 
       <Poster
-        accent="#4fa8ff"
+        accent="#e10600"
         title="Not sure which platform you need? Start with the problem."
         body="Describe the process that is costing your team the most time or creating the most exposure. We will tell you honestly whether a platform, a custom build or plain advice is the right answer."
         label="Talk to Our Advisory Team"

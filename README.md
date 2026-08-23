@@ -2,7 +2,7 @@
 
 Public website for 7L Advisory — technology-powered tax, risk and compliance advisory.
 
-Built from the 7L Advisory website design package: ice-blue accent `#4fa8ff`, Archivo, zero-radius modernist grid.
+Built from the 7L Advisory website design package: night-navy ground, racing-red CTAs and speed-yellow marks, Archivo, zero-radius modernist grid.
 
 ## Pages
 

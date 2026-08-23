@@ -30,7 +30,10 @@ export function Header() {
         <Link href="/" className="brand" aria-label="7L Advisory home">
           <span className="brand-7l">7L</span>
           <span className="brand-name">Advisory</span>
-          <span className="brand-dot" />
+          <span className="brand-dots" aria-hidden>
+            <span className="brand-dot" />
+            <span className="brand-dot brand-dot-red" />
+          </span>
         </Link>
         <nav className="nav">
           <div className="menu" ref={menuRef}>
@@ -77,7 +80,7 @@ export function Header() {
           </div>
           <Link href="/contact" className="btn btn-accent" style={{ padding: "11px 18px", fontSize: 14 }}>
             Talk to Us
-            <Arrow color="#0d0f14" />
+            <Arrow />
           </Link>
         </div>
       </div>

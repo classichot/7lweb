@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Glance, Outcome, Poster, Step, Who } 
 
 export const metadata: Metadata = { title: "TP24" };
 
-const accent = "#bfe2ff";
+const accent = "#ffcc00";
 
 export default function Tp24Page() {
   return (
@@ -30,7 +30,7 @@ export default function Tp24Page() {
               <div className="row">
                 <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--void)" }}>
                   Request a Demonstration
-                  <Arrow color="#0d0f14" />
+                  <Arrow color="var(--void)" />
                 </Link>
                 <Link className="btn btn-ghost btn-md" href="/solutions">
                   Compare Platforms
@@ -38,7 +38,7 @@ export default function Tp24Page() {
               </div>
             </div>
             <div style={{ borderTop: `2px solid ${accent}`, paddingTop: 20 }}>
-              <Figure caption="Container port gantry — intercompany goods" ratio="3 / 2" />
+              <Figure caption="Container port gantry — intercompany goods" src="/platforms/tp24.jpg" ratio="3 / 2" />
               <div style={{ height: 20 }} />
               <span style={{ fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--mute)", fontWeight: 800 }}>At a glance</span>
               <Glance

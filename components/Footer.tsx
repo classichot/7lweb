@@ -11,7 +11,10 @@ export function Footer() {
             <span style={{ display: "inline-flex", alignItems: "center", gap: 7, fontWeight: 800, fontSize: 19, letterSpacing: "-0.02em" }}>
               <span style={{ color: "var(--mute)" }}>7L</span>
               <span style={{ color: "var(--snow)" }}>Advisory</span>
-              <span style={{ width: 7, height: 7, background: "var(--accent)", display: "block", alignSelf: "flex-start", marginTop: 2 }} />
+              <span style={{ display: "flex", gap: 2, alignSelf: "flex-start", marginTop: 2 }} aria-hidden>
+                <span style={{ width: 7, height: 7, background: "var(--yellow)", display: "block" }} />
+                <span style={{ width: 7, height: 7, background: "var(--accent)", display: "block" }} />
+              </span>
             </span>
             <p className="body-14 muted" style={{ maxWidth: "32ch" }}>
               Advisory, engineered for action. We don&apos;t stop at reports — we build the technology that helps businesses decide, comply, detect risk and grow.

@@ -113,7 +113,7 @@ export default function ApproachPage() {
       </section>
 
       <Poster
-        accent="#4fa8ff"
+        accent="#e10600"
         title="Start with one process. Prove it. Then scale."
         body="Most engagements begin with a single painful process and a fixed scope. If the value is not there, we say so before anyone commits to a platform."
         label="Schedule a Consultation"

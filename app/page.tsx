@@ -56,10 +56,16 @@ export default function HomePage() {
               <path d="M56 0H0V56" fill="none" stroke="rgba(238,240,244,.055)" strokeWidth="1" />
             </pattern>
             <radialGradient id="glow7l" cx="72%" cy="18%" r="62%">
-              <stop offset="0%" stopColor="#4fa8ff" stopOpacity=".20" />
-              <stop offset="100%" stopColor="#4fa8ff" stopOpacity="0" />
+              <stop offset="0%" stopColor="#e10600" stopOpacity=".26" />
+              <stop offset="100%" stopColor="#e10600" stopOpacity="0" />
+            </radialGradient>
+            <radialGradient id="sheen7l" cx="14%" cy="-2%" r="56%">
+              <stop offset="0%" stopColor="#d4e6ff" stopOpacity=".22" />
+              <stop offset="38%" stopColor="#6f96dc" stopOpacity=".1" />
+              <stop offset="100%" stopColor="#070b16" stopOpacity="0" />
             </radialGradient>
           </defs>
+          <rect width="100%" height="100%" fill="url(#sheen7l)" />
           <rect width="100%" height="100%" fill="url(#g7l)" />
           <rect width="100%" height="100%" fill="url(#glow7l)" />
         </svg>
@@ -71,7 +77,7 @@ export default function HomePage() {
               style={{
                 left: `${s[0]}%`,
                 top: `${s[1]}%`,
-                background: i % 3 === 0 ? "#bfe2ff" : "#4fa8ff",
+                background: i % 3 === 0 ? "#ffcc00" : "#e10600",
                 animationDuration: `${s[2]}s`,
                 animationDelay: `${s[3]}s`,
               }}
@@ -92,7 +98,7 @@ export default function HomePage() {
           <div className="row">
             <Link className="btn btn-accent" href="/solutions">
               Explore Our Platforms
-              <Arrow color="#0d0f14" />
+              <Arrow />
             </Link>
             <Link className="btn btn-ghost" href="/contact">
               Talk to Our Advisory Team
@@ -151,7 +157,7 @@ export default function HomePage() {
           <div className="cells cells-card">
             {platforms.map((p) => (
               <div key={p.slug} className="plat-card" style={{ borderTop: `2px solid ${p.accent}` }}>
-                <Figure caption={p.figure} />
+                <Figure caption={p.figure} src={p.image} />
                 <div className="plat-head">
                   <span className="plat-name">{p.name}</span>
                   <span className="plat-idx">{p.index}</span>
@@ -252,7 +258,7 @@ export default function HomePage() {
           <div className="row">
             <Link className="btn btn-ink" href="/contact">
               Schedule a Consultation
-              <Arrow color="#4fa8ff" />
+              <Arrow color="#ffcc00" />
             </Link>
             <Link className="btn btn-outline-void" href="/solutions">
               Explore Our Platforms

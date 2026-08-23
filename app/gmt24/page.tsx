@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Flow, Glance, Outcome, Poster, Step, 
 
 export const metadata: Metadata = { title: "GMT24" };
 
-const accent = "#ddf0ff";
+const accent = "#ffd84a";
 
 export default function Gmt24Page() {
   return (
@@ -30,7 +30,7 @@ export default function Gmt24Page() {
               <div className="row">
                 <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--void)" }}>
                   Request a Demonstration
-                  <Arrow color="#0d0f14" />
+                  <Arrow color="var(--void)" />
                 </Link>
                 <Link className="btn btn-ghost btn-md" href="/solutions">
                   Compare Platforms
@@ -38,7 +38,7 @@ export default function Gmt24Page() {
               </div>
             </div>
             <div style={{ borderTop: `2px solid ${accent}`, paddingTop: 20 }}>
-              <Figure caption="Financial-district skyline at dusk" ratio="3 / 2" />
+              <Figure caption="Financial-district skyline at dusk" src="/platforms/gmt24.jpg" ratio="3 / 2" />
               <div style={{ height: 20 }} />
               <span style={{ fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--mute)", fontWeight: 800 }}>At a glance</span>
               <Glance

@@ -161,7 +161,7 @@ export default function AboutPage() {
           </h2>
           <Link className="btn btn-accent" href="/contact">
             Talk to Us
-            <Arrow color="#0d0f14" />
+            <Arrow />
           </Link>
         </div>
       </section>

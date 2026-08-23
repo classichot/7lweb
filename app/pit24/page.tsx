@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Glance, Outcome, Poster, Step, Who } 
 
 export const metadata: Metadata = { title: "PIT24" };
 
-const accent = "#4fa8ff";
+const accent = "#e10600";
 
 export default function Pit24Page() {
   return (
@@ -30,7 +30,7 @@ export default function Pit24Page() {
               <div className="row">
                 <Link className="btn btn-accent btn-md" href="/contact">
                   Request a Demonstration
-                  <Arrow color="#0d0f14" />
+                  <Arrow />
                 </Link>
                 <Link className="btn btn-ghost btn-md" href="/solutions">
                   Compare Platforms
@@ -38,7 +38,7 @@ export default function Pit24Page() {
               </div>
             </div>
             <div style={{ borderTop: `2px solid ${accent}`, paddingTop: 20 }}>
-              <Figure caption="Income documents and a payslip on a desk" ratio="3 / 2" />
+              <Figure caption="Income documents and a payslip on a desk" src="/platforms/pit24.jpg" ratio="3 / 2" />
               <div style={{ height: 20 }} />
               <span style={{ fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--mute)", fontWeight: 800 }}>At a glance</span>
               <Glance

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -11,17 +12,25 @@ export function Arrow({ color = "currentColor" }: { color?: string }) {
 
 export function Figure({
   caption,
+  src,
   accent,
   ratio = "16 / 9",
 }: {
   caption: string;
+  src?: string;
   accent?: string;
   ratio?: string;
 }) {
   return (
     <div className="figure grayscale" style={{ aspectRatio: ratio, boxShadow: accent ? `inset 0 2px 0 ${accent}` : undefined }}>
-      <div className="figure-grid" />
-      <span className="figure-cap">{caption}</span>
+      {src ? (
+        <Image src={src} alt={caption} fill sizes="(max-width: 800px) 100vw, 40vw" />
+      ) : (
+        <>
+          <div className="figure-grid" />
+          <span className="figure-cap">{caption}</span>
+        </>
+      )}
     </div>
   );
 }

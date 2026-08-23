@@ -4,7 +4,7 @@ import { Arrow, Badge, Bullet, Figure, Flow, Glance, Poster } from "@/components
 
 export const metadata: Metadata = { title: "RISK24" };
 
-const accent = "#9dd2ff";
+const accent = "#ff6b1a";
 
 export default function Risk24Page() {
   return (
@@ -33,7 +33,7 @@ export default function Risk24Page() {
               <div className="row">
                 <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--void)" }}>
                   Request a Demonstration
-                  <Arrow color="#0d0f14" />
+                  <Arrow color="var(--void)" />
                 </Link>
                 <Link className="btn btn-ghost btn-md" href="/solutions">
                   Compare Platforms
@@ -41,7 +41,7 @@ export default function Risk24Page() {
               </div>
             </div>
             <div style={{ borderTop: `2px solid ${accent}`, paddingTop: 20 }}>
-              <Figure caption="A data room — document boxes, ledgers, invoice files" ratio="3 / 2" />
+              <Figure caption="Invoice stack and warehouse racking under inspection" src="/platforms/risk24.jpg" ratio="3 / 2" />
               <div style={{ height: 20 }} />
               <span style={{ fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--mute)", fontWeight: 800 }}>At a glance</span>
               <Glance
@@ -181,7 +181,7 @@ export default function Risk24Page() {
                 "Risk scoring",
                 "Audit trail and reviewer approval",
               ].map((b) => (
-                <Bullet key={b} color="#0a5ea8" ink>
+                <Bullet key={b} color="var(--deep)" ink>
                   {b}
                 </Bullet>
               ))}

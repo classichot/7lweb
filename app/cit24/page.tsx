@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Flow, Glance, Outcome, Poster, Step, 
 
 export const metadata: Metadata = { title: "CIT24" };
 
-const accent = "#78beff";
+const accent = "#ff2a1f";
 
 export default function Cit24Page() {
   return (
@@ -28,9 +28,9 @@ export default function Cit24Page() {
                 CIT24 converts trial balance, general ledger, financial statements and supporting documents into an explainable, reviewable Thai corporate tax position under sections 65, 65 bis and 65 ter of the Revenue Code — and remembers every position for next year.
               </p>
               <div className="row">
-                <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--void)" }}>
+                <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--on-accent)" }}>
                   Request a Demonstration
-                  <Arrow color="#0d0f14" />
+                  <Arrow />
                 </Link>
                 <Link className="btn btn-ghost btn-md" href="/solutions">
                   Compare Platforms
@@ -38,7 +38,7 @@ export default function Cit24Page() {
               </div>
             </div>
             <div style={{ borderTop: `2px solid ${accent}`, paddingTop: 20 }}>
-              <Figure caption="A bound ledger and trial-balance printout" ratio="3 / 2" />
+              <Figure caption="A bound ledger and trial-balance printout" src="/platforms/cit24.jpg" ratio="3 / 2" />
               <div style={{ height: 20 }} />
               <span style={{ fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--mute)", fontWeight: 800 }}>At a glance</span>
               <Glance
