@@ -1,9 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { PwaRegister } from "@/components/PwaRegister";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  applicationName: "7L Advisory",
   title: {
     default: "7L Advisory — Advisory, engineered for action",
     template: "%s | 7L Advisory",
@@ -26,13 +28,26 @@ export const metadata: Metadata = {
     description: "We don't stop at reports. We build the technology that helps businesses decide, comply, detect risk, and grow.",
     type: "website",
   },
-  icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
+  appleWebApp: {
+    capable: true,
+    title: "7L Advisory",
+    statusBarStyle: "black-translucent",
+  },
+  formatDetection: { telephone: false },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
 };
 
 export const viewport: Viewport = {
   themeColor: "#070b16",
   width: "device-width",
   initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -44,6 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
           <Footer />
         </div>
+        <PwaRegister />
       </body>
     </html>
   );

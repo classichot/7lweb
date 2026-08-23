@@ -32,7 +32,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} style={{ display: "grid", gap: 16, maxWidth: 520 }}>
-      <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 16 }}>
+      <div className="form-pair">
         <div className="field">
           <label htmlFor="c-name">Name</label>
           <input className="input" id="c-name" name="name" type="text" required autoComplete="name" />
@@ -42,7 +42,7 @@ export function ContactForm() {
           <input className="input" id="c-email" name="email" type="email" required autoComplete="email" />
         </div>
       </div>
-      <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 16 }}>
+      <div className="form-pair">
         <div className="field">
           <label htmlFor="c-company">Organisation</label>
           <input className="input" id="c-company" name="company" type="text" autoComplete="organization" />
