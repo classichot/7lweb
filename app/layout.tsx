@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | 7L Advisory",
   },
   description:
-    "7L Advisory combines professional expertise, AI, data and purpose-built technology — PIT24, CIT24, RISK24, TP24 and GMT24 — to help organisations solve complex tax, risk and business challenges.",
+    "7L Advisory combines professional expertise, AI, data and purpose-built technology — PIT24, CIT24, RISK24, TP24, GMT24 and LAW24 — to help organisations solve complex tax, risk, legal and business challenges.",
   keywords: [
     "technology-powered advisory",
     "AI advisory services",
@@ -22,6 +22,8 @@ export const metadata: Metadata = {
     "transfer pricing software",
     "Thai corporate income tax software",
     "OECD Pillar Two software",
+    "legal technology",
+    "contract intelligence platform",
   ],
   openGraph: {
     title: "7L Advisory — Advisory, engineered for action",

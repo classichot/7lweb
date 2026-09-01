@@ -396,7 +396,7 @@ export default function Risk24Page() {
                 <p className="body-13 muted">ERP and general ledger extracts, scheduled or event-driven.</p>
                 <p className="body-13 muted">Procurement, payment, payroll and expense systems for end-to-end coverage.</p>
                 <p className="body-13 muted">Virtual data rooms and document repositories for deal material.</p>
-                <p className="body-13 muted">Shared tax positions with CIT24, and entity data with TP24 and GMT24.</p>
+                <p className="body-13 muted">Shared tax positions with CIT24, entity data with TP24 and GMT24, and legal due-diligence evidence with LAW24.</p>
                 <p className="body-13 muted">
                   Named system connectors <Badge>to be confirmed</Badge>
                 </p>

@@ -13,7 +13,7 @@ const steps = [
   {
     n: "02",
     t: "Design",
-    body: "Translate professional knowledge and regulatory requirements into rules, data models and intelligent workflows. This is the step most technology projects skip: the tax or forensic logic is written down precisely enough to be executed and tested.",
+    body: "Translate professional knowledge and regulatory requirements into rules, data models and intelligent workflows. This is the step most technology projects skip: the tax, legal or forensic logic is written down precisely enough to be executed and tested.",
     points: ["Rule specification and effective dating", "Data model and source mapping", "Workflow, roles and approval design", "Test cases drawn from real positions"],
   },
   {

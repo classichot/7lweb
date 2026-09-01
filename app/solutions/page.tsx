@@ -46,15 +46,23 @@ const rows = [
     points: ["GloBE data model & rule packs", "ETR, safe harbours, SBIE, top-up allocation", "GIR preparation & audit trail"],
     label: "Explore GMT24",
   },
+  {
+    n: "06 · LAW24",
+    href: "/law24",
+    title: "Legal work as a system, not a filing cabinet",
+    body: "Contracts, corporate records and legal due diligence held as a controlled model — obligations and opinions attached to the documents they came from, and deal findings shared with RISK24 rather than restated in a second memo.",
+    points: ["Contract extraction & obligation register", "Corporate records & legal calendar", "Legal DD in the same room as RISK24"],
+    label: "Explore LAW24",
+  },
 ];
 
 const compare = [
-  ["Problem", "Individual tax compliance at volume", "Corporate tax close, provision and filing", "Fraud, tax exposure and deal risk in the same data", "Related-party pricing exposure", "Pillar Two top-up tax and reporting"],
-  ["Primary users", "Tax & payroll teams, advisory firms", "Finance and tax teams, advisory firms", "Internal audit, tax, deal teams, advisers", "Group tax, TP specialists", "Group tax, finance, advisors"],
-  ["Core data", "Income documents, allowances, payroll", "Trial balance, GL, financial statements", "Ledger, invoices, tax filings, contracts, payroll", "Intercompany flows, financials, benchmarks", "Consolidation, CbCR, entity & tax data"],
-  ["Rhythm", "Annual cycle, continuous collection", "Continuous close, half-year and annual filing", "Continuous, plus per-transaction engagements", "Annual file, live transaction view", "Quarterly provision, annual filing"],
-  ["Primary output", "Filing-ready returns & records", "Provision, PND51, PND50 & workpapers", "Findings, exposure and deal recommendations", "Local file & defence pack", "GloBE Information Return & top-up"],
-  ["Deployment", "In-house or advisor-operated", "Corporate, advisory or audit-defence mode", "In-house or advisor-operated", "In-house or advisor-operated", "In-house or advisor portfolio mode"],
+  ["Problem", "Individual tax compliance at volume", "Corporate tax close, provision and filing", "Fraud, tax exposure and deal risk in the same data", "Related-party pricing exposure", "Pillar Two top-up tax and reporting", "Contracts, obligations and legal defence"],
+  ["Primary users", "Tax & payroll teams, advisory firms", "Finance and tax teams, advisory firms", "Internal audit, tax, deal teams, advisers", "Group tax, TP specialists", "Group tax, finance, advisors", "General counsel, company secretarial, law firms"],
+  ["Core data", "Income documents, allowances, payroll", "Trial balance, GL, financial statements", "Ledger, invoices, tax filings, contracts, payroll", "Intercompany flows, financials, benchmarks", "Consolidation, CbCR, entity & tax data", "Contracts, minutes, licences, opinions"],
+  ["Rhythm", "Annual cycle, continuous collection", "Continuous close, half-year and annual filing", "Continuous, plus per-transaction engagements", "Annual file, live transaction view", "Quarterly provision, annual filing", "Continuous matter work, plus deals and renewals"],
+  ["Primary output", "Filing-ready returns & records", "Provision, PND51, PND50 & workpapers", "Findings, exposure and deal recommendations", "Local file & defence pack", "GloBE Information Return & top-up", "Obligation register, opinions & DD report"],
+  ["Deployment", "In-house or advisor-operated", "Corporate, advisory or audit-defence mode", "In-house or advisor-operated", "In-house or advisor-operated", "In-house or advisor portfolio mode", "In-house legal or advisor-operated"],
 ];
 
 const services = [
@@ -70,9 +78,9 @@ export default function SolutionsPage() {
       <section className="section-hero">
         <div className="wrap">
           <p className="kicker kicker-accent">Solutions</p>
-          <h1 className="display display-lg">Four platforms. One discipline.</h1>
+          <h1 className="display display-lg">Six platforms. One discipline.</h1>
           <p className="lede">
-            Each 7L platform takes a body of professional knowledge — personal tax, forensic analysis, transfer pricing, global minimum tax — and turns it into a working system with the same architecture: controlled data, versioned rules, deterministic calculation, explainable AI and a complete audit trail.
+            Each 7L platform takes a body of professional knowledge — personal and corporate tax, forensic analysis, transfer pricing, global minimum tax, legal operations — and turns it into a working system with the same architecture: controlled data, versioned rules, deterministic engines, explainable AI and a complete audit trail.
           </p>
         </div>
       </section>
@@ -129,6 +137,7 @@ export default function SolutionsPage() {
                   <th>RISK24</th>
                   <th>TP24</th>
                   <th>GMT24</th>
+                  <th>LAW24</th>
                 </tr>
               </thead>
               <tbody>

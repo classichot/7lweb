@@ -107,6 +107,27 @@ export const platforms = [
       "GIR support, scenarios and audit trails",
     ],
   },
+  {
+    slug: "law24",
+    name: "LAW24",
+    index: "06",
+    accent: "#fff3a0",
+    onAccent: "#070b16",
+    short: "Legal intelligence",
+    menu: "Legal operations & intelligence",
+    tagline: "Legal work as a system, not a filing cabinet.",
+    blurb:
+      "A legal intelligence platform that turns contracts, corporate records and due-diligence materials into a controlled operating system — obligations, deadlines and opinions attached to the documents they came from.",
+    figure: "A statute volume, signed contract and minute books on a desk",
+    image: "/platforms/law24.jpg",
+    bullets: [
+      "Contract ingestion and clause extraction",
+      "Obligation and deadline register",
+      "Corporate records and legal calendar",
+      "Legal due diligence in the deal room",
+      "Versioned opinions a lawyer can sign",
+    ],
+  },
 ] as const;
 
 export type PlatformSlug = (typeof platforms)[number]["slug"];

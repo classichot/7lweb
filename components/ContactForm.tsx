@@ -12,6 +12,7 @@ const topics = [
   "RISK24 — forensic, tax review or due diligence",
   "TP24 — transfer pricing",
   "GMT24 — global minimum tax",
+  "LAW24 — legal intelligence",
   "Custom platform or advisory engagement",
 ];
 

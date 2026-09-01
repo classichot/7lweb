@@ -59,7 +59,7 @@ export default function AboutPage() {
               Regulated domains, handled by people who practise in them
             </h2>
             <div style={{ display: "grid", gap: 0, borderTop: "1px solid var(--line-soft)" }}>
-              {["Corporate and personal taxation", "Transfer pricing and international tax", "OECD Pillar Two and global minimum tax", "Forensic accounting and fraud investigation", "Risk, internal audit and compliance"].map((t) => (
+              {["Corporate and personal taxation", "Transfer pricing and international tax", "OECD Pillar Two and global minimum tax", "Forensic accounting and fraud investigation", "Risk, internal audit and compliance", "Corporate, commercial and regulatory law"].map((t) => (
                 <div key={t} style={{ padding: "14px 0", borderBottom: "1px solid var(--line-soft)", fontSize: 14, color: "var(--mute-3)" }}>
                   {t}
                 </div>
