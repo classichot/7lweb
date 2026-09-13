@@ -128,6 +128,48 @@ export const platforms = [
       "Versioned opinions a lawyer can sign",
     ],
   },
+  {
+    slug: "cfo24",
+    name: "CFO24",
+    index: "07",
+    accent: "#fff7b8",
+    onAccent: "#070b16",
+    short: "CFO operating system",
+    menu: "Close, cash and board intelligence",
+    tagline: "The close, the cash and the board pack from one model.",
+    blurb:
+      "A finance operating system for the monthly close, cash and working capital, forecast versus actual, and the board pack — with the tax provision from CIT24 sitting on the same numbers the CFO signs.",
+    figure: "A cash-flow worksheet and board-pack printout on a desk",
+    image: "/platforms/cfo24.jpg",
+    bullets: [
+      "Controlled monthly close",
+      "Cash and working-capital view",
+      "Forecast versus actual",
+      "Board pack from the same model",
+      "Tax provision handshake with CIT24",
+    ],
+  },
+  {
+    slug: "trade24",
+    name: "TRADE24",
+    index: "08",
+    accent: "#fffde6",
+    onAccent: "#070b16",
+    short: "Trade & customs",
+    menu: "Customs, origin and landed cost",
+    tagline: "Customs, origin and landed cost as a controlled system.",
+    blurb:
+      "A trade-compliance platform that turns shipments, classifications, origin claims and broker packs into a defensible record — so duty is calculated, FTA preference is evidenced, and a customs question is answered from the file.",
+    figure: "A bill of lading, origin certificate and cargo seal on a desk",
+    image: "/platforms/trade24.jpg",
+    bullets: [
+      "Tariff classification with evidence",
+      "Origin and FTA preference",
+      "Landed cost and duty accrual",
+      "Broker pack and filing trail",
+      "Shared flows with TP24 and LAW24",
+    ],
+  },
 ] as const;
 
 export type PlatformSlug = (typeof platforms)[number]["slug"];

@@ -13,6 +13,8 @@ const articles = [
   ["Tax technology", "Effective dating: the unglamorous feature that decides whether you can defend a number", "Rule versioning as an audit requirement rather than an engineering preference."],
   ["Practice", "When not to build: three processes better left manual", "A short, honest test for whether a compliance process deserves a platform."],
   ["Legal", "A contract that is not in the system is not in force — operationally", "Why obligation tracking is the legal equivalent of a tax adjustment ledger."],
+  ["Finance", "The board pack is not a document. It is a query.", "What changes when every figure the directors see opens to a journal and an approver."],
+  ["Trade", "An FTA claim without a file is a donation to customs", "Origin as a test you can rerun, not a certificate you hope still exists."],
 ];
 
 export default function InsightsPage() {
@@ -23,7 +25,7 @@ export default function InsightsPage() {
           <p className="kicker kicker-accent">Insights</p>
           <h1 className="display display-lg">Notes from the work</h1>
           <p className="lede" style={{ maxWidth: "56ch" }}>
-            Regulatory analysis, technical explanation and what we learn building systems for tax, risk, legal and compliance. No thought-leadership filler.
+            Regulatory analysis, technical explanation and what we learn building systems for tax, risk, legal, finance and trade. No thought-leadership filler.
           </p>
         </div>
       </section>

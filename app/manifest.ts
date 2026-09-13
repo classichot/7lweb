@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "7L Advisory",
     short_name: "7L Advisory",
     description:
-      "Technology-powered tax, risk, legal and compliance advisory — PIT24, CIT24, RISK24, TP24, GMT24 and LAW24.",
+      "Technology-powered tax, risk, legal, finance and trade advisory — PIT24, CIT24, RISK24, TP24, GMT24, LAW24, CFO24 and TRADE24.",
     start_url: "/",
     scope: "/",
     display: "standalone",

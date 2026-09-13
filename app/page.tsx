@@ -253,7 +253,7 @@ export default function HomePage() {
             Move beyond reports. Build a smarter way to operate.
           </h2>
           <p className="body-16" style={{ maxWidth: "56ch", margin: "0 0 clamp(32px, 4vw, 44px)", color: "#201e1d" }}>
-            Talk to 7L Advisory about transforming a complex tax, risk, legal or compliance process into an intelligent, scalable business capability.
+            Talk to 7L Advisory about transforming a complex tax, risk, legal, finance or trade process into an intelligent, scalable business capability.
           </p>
           <div className="row">
             <Link className="btn btn-ink" href="/contact">

@@ -77,7 +77,7 @@ export default function Cit24Page() {
               <Who title="Thai corporates" body="Finance and tax teams running a single-entity close, provision and filing cycle." />
               <Who title="Advisory and accounting firms" body="Multi-client workspaces on one methodology, with per-client evidence kept separate." />
               <Who title="Teams facing an RD enquiry" body="Audit-defence mode: a request tracker and an evidence room built from the working papers." />
-              <Who title="Groups preparing for more" body="Positions and entity data that feed TP24, GMT24 and LAW24 rather than being re-entered." />
+              <Who title="Groups preparing for more" body="Positions and entity data that feed TP24, GMT24, LAW24 and the tax provision posted into CFO24 rather than being re-entered." />
             </div>
           </div>
         </div>

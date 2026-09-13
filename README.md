@@ -8,7 +8,7 @@ Built from the 7L Advisory website design package: night-navy ground, racing-red
 
 - `/` — home
 - `/solutions` — platforms and comparison
-- `/pit24` `/cit24` `/risk24` `/tp24` `/gmt24` `/law24` — product pages
+- `/pit24` `/cit24` `/risk24` `/tp24` `/gmt24` `/law24` `/cfo24` `/trade24` — product pages
 - `/approach` `/about` `/insights` `/contact`
 
 ## Develop

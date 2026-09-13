@@ -202,6 +202,7 @@ export default function Law24Page() {
                 <p className="body-13 muted">Contract repositories and e-signature tools for intake of executed documents.</p>
                 <p className="body-13 muted">Entity master shared with CIT24, TP24 and GMT24 so corporate records are not re-keyed.</p>
                 <p className="body-13 muted">Deal room shared with RISK24 for combined legal, tax and financial due diligence.</p>
+                <p className="body-13 muted">Import licences and permits shared with TRADE24 when that platform is in use.</p>
                 <p className="body-13 muted">Calendar and ticketing systems for obligation alerts already in use.</p>
                 <p className="body-13 muted">
                   Named system connectors <Badge>to be confirmed</Badge>

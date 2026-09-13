@@ -13,6 +13,8 @@ const topics = [
   "TP24 — transfer pricing",
   "GMT24 — global minimum tax",
   "LAW24 — legal intelligence",
+  "CFO24 — close, cash and board pack",
+  "TRADE24 — customs, origin and landed cost",
   "Custom platform or advisory engagement",
 ];
 

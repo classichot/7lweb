@@ -54,15 +54,31 @@ const rows = [
     points: ["Contract extraction & obligation register", "Corporate records & legal calendar", "Legal DD in the same room as RISK24"],
     label: "Explore LAW24",
   },
+  {
+    n: "07 · CFO24",
+    href: "/cfo24",
+    title: "The close, the cash and the board pack from one model",
+    body: "Controllers close, FP&A forecasts and the board reads a pack assembled from the same finance model — with the tax provision posted from CIT24 rather than emailed late, and earnings-quality findings from RISK24 attached when a review has run.",
+    points: ["Controlled close & cash view", "Forecast versus actual", "Board pack from the same source"],
+    label: "Explore CFO24",
+  },
+  {
+    n: "08 · TRADE24",
+    href: "/trade24",
+    title: "Customs, origin and landed cost as a controlled system",
+    body: "Shipments carry classification, origin evidence, duty and the broker pack in one file — so FTA preference is proved, landed cost is known before the goods move, and a customs question is answered from the record.",
+    points: ["HS classification with evidence", "Origin & FTA preference", "Duty accrual shared with CFO24 and CIT24"],
+    label: "Explore TRADE24",
+  },
 ];
 
 const compare = [
-  ["Problem", "Individual tax compliance at volume", "Corporate tax close, provision and filing", "Fraud, tax exposure and deal risk in the same data", "Related-party pricing exposure", "Pillar Two top-up tax and reporting", "Contracts, obligations and legal defence"],
-  ["Primary users", "Tax & payroll teams, advisory firms", "Finance and tax teams, advisory firms", "Internal audit, tax, deal teams, advisers", "Group tax, TP specialists", "Group tax, finance, advisors", "General counsel, company secretarial, law firms"],
-  ["Core data", "Income documents, allowances, payroll", "Trial balance, GL, financial statements", "Ledger, invoices, tax filings, contracts, payroll", "Intercompany flows, financials, benchmarks", "Consolidation, CbCR, entity & tax data", "Contracts, minutes, licences, opinions"],
-  ["Rhythm", "Annual cycle, continuous collection", "Continuous close, half-year and annual filing", "Continuous, plus per-transaction engagements", "Annual file, live transaction view", "Quarterly provision, annual filing", "Continuous matter work, plus deals and renewals"],
-  ["Primary output", "Filing-ready returns & records", "Provision, PND51, PND50 & workpapers", "Findings, exposure and deal recommendations", "Local file & defence pack", "GloBE Information Return & top-up", "Obligation register, opinions & DD report"],
-  ["Deployment", "In-house or advisor-operated", "Corporate, advisory or audit-defence mode", "In-house or advisor-operated", "In-house or advisor-operated", "In-house or advisor portfolio mode", "In-house legal or advisor-operated"],
+  ["Problem", "Individual tax compliance at volume", "Corporate tax close, provision and filing", "Fraud, tax exposure and deal risk in the same data", "Related-party pricing exposure", "Pillar Two top-up tax and reporting", "Contracts, obligations and legal defence", "Close, cash and board-pack inconsistency", "Duty, origin and customs defence"],
+  ["Primary users", "Tax & payroll teams, advisory firms", "Finance and tax teams, advisory firms", "Internal audit, tax, deal teams, advisers", "Group tax, TP specialists", "Group tax, finance, advisors", "General counsel, company secretarial, law firms", "CFO, controller, FP&A, PE finance", "Trade compliance, supply chain, group tax"],
+  ["Core data", "Income documents, allowances, payroll", "Trial balance, GL, financial statements", "Ledger, invoices, tax filings, contracts, payroll", "Intercompany flows, financials, benchmarks", "Consolidation, CbCR, entity & tax data", "Contracts, minutes, licences, opinions", "ERP, bank, forecast, tax provision", "Invoices, BoM, BoL, origin declarations"],
+  ["Rhythm", "Annual cycle, continuous collection", "Continuous close, half-year and annual filing", "Continuous, plus per-transaction engagements", "Annual file, live transaction view", "Quarterly provision, annual filing", "Continuous matter work, plus deals and renewals", "Monthly close, weekly cash, board cycle", "Per shipment, plus post-entry and audit"],
+  ["Primary output", "Filing-ready returns & records", "Provision, PND51, PND50 & workpapers", "Findings, exposure and deal recommendations", "Local file & defence pack", "GloBE Information Return & top-up", "Obligation register, opinions & DD report", "Closed books, cash view & board pack", "Broker pack, duty accrual & origin file"],
+  ["Deployment", "In-house or advisor-operated", "Corporate, advisory or audit-defence mode", "In-house or advisor-operated", "In-house or advisor-operated", "In-house or advisor portfolio mode", "In-house legal or advisor-operated", "In-house finance or advisor-operated", "In-house or broker-assisted"],
 ];
 
 const services = [
@@ -78,9 +94,9 @@ export default function SolutionsPage() {
       <section className="section-hero">
         <div className="wrap">
           <p className="kicker kicker-accent">Solutions</p>
-          <h1 className="display display-lg">Six platforms. One discipline.</h1>
+          <h1 className="display display-lg">Eight platforms. One discipline.</h1>
           <p className="lede">
-            Each 7L platform takes a body of professional knowledge — personal and corporate tax, forensic analysis, transfer pricing, global minimum tax, legal operations — and turns it into a working system with the same architecture: controlled data, versioned rules, deterministic engines, explainable AI and a complete audit trail.
+            Each 7L platform takes a body of professional knowledge — personal and corporate tax, forensic analysis, transfer pricing, global minimum tax, legal operations, finance leadership, trade and customs — and turns it into a working system with the same architecture: controlled data, versioned rules, deterministic engines, explainable AI and a complete audit trail.
           </p>
         </div>
       </section>
@@ -138,6 +154,8 @@ export default function SolutionsPage() {
                   <th>TP24</th>
                   <th>GMT24</th>
                   <th>LAW24</th>
+                  <th>CFO24</th>
+                  <th>TRADE24</th>
                 </tr>
               </thead>
               <tbody>

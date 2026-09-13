@@ -186,7 +186,7 @@ export default function Tp24Page() {
                 <p className="body-13 muted">ERP and consolidation systems for intercompany balances and segment results.</p>
                 <p className="body-13 muted">Contract and document repositories for agreements and evidence.</p>
                 <p className="body-13 muted">Commercial benchmarking databases through the search workflow.</p>
-                <p className="body-13 muted">Shared entity and financial data with GMT24 where both platforms are in use.</p>
+                <p className="body-13 muted">Shared entity and financial data with GMT24, and intercompany goods classification with TRADE24, where those platforms are in use.</p>
                 <p className="body-13 muted">
                   Named system connectors <Badge>to be confirmed</Badge>
                 </p>

@@ -203,7 +203,7 @@ export default function Gmt24Page() {
                 <p className="body-13 muted">Consolidation and ERP systems for financial and deferred tax data.</p>
                 <p className="body-13 muted">CbCR and tax reporting packs, plus entity master data.</p>
                 <p className="body-13 muted">Provision tooling, with results returned for the accounting close.</p>
-                <p className="body-13 muted">Shared entity and financial data with TP24, and corporate records with LAW24, where those platforms are in use.</p>
+                <p className="body-13 muted">Shared entity and financial data with TP24, corporate records with LAW24, and provision impact returned to CFO24, where those platforms are in use.</p>
                 <p className="body-13 muted">
                   Named system connectors <Badge>to be confirmed</Badge>
                 </p>
