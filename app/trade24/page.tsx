@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Flow, Glance, Outcome, Poster, Step, 
 
 export const metadata: Metadata = { title: "TRADE24" };
 
-const accent = "#fffde6";
+const accent = "#ffcc00";
 
 export default function Trade24Page() {
   return (

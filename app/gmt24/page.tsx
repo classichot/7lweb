@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Flow, Glance, Outcome, Poster, Step, 
 
 export const metadata: Metadata = { title: "GMT24" };
 
-const accent = "#ffd84a";
+const accent = "#e10600";
 
 export default function Gmt24Page() {
   return (
@@ -28,9 +28,9 @@ export default function Gmt24Page() {
                 An enterprise platform for OECD Pillar Two: financial, CbCR, entity, transfer pricing and incentive data converted into a controlled GloBE data model, with versioned rules driving every calculation.
               </p>
               <div className="row">
-                <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--void)" }}>
+                <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--on-accent)" }}>
                   Request a Demonstration
-                  <Arrow color="var(--void)" />
+                  <Arrow color="var(--on-accent)" />
                 </Link>
                 <Link className="btn btn-ghost btn-md" href="/solutions">
                   Compare Platforms

@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Flow, Glance, Outcome, Poster, Step, 
 
 export const metadata: Metadata = { title: "CFO24" };
 
-const accent = "#fff7b8";
+const accent = "#ff6b1a";
 
 export default function Cfo24Page() {
   return (

@@ -4,7 +4,7 @@ import { Arrow, Badge, Capability, Figure, Flow, Glance, Outcome, Poster, Step, 
 
 export const metadata: Metadata = { title: "LAW24" };
 
-const accent = "#fff3a0";
+const accent = "#ff2a1f";
 
 export default function Law24Page() {
   return (
@@ -28,9 +28,9 @@ export default function Law24Page() {
                 A legal intelligence platform for contracts, corporate records and due diligence — obligations, deadlines and opinions kept with the documents they came from, so legal work is queryable rather than reconstructed from a shared drive.
               </p>
               <div className="row">
-                <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--void)" }}>
+                <Link className="btn btn-md" href="/contact" style={{ background: accent, color: "var(--on-accent)" }}>
                   Request a Demonstration
-                  <Arrow color="var(--void)" />
+                  <Arrow color="var(--on-accent)" />
                 </Link>
                 <Link className="btn btn-ghost btn-md" href="/solutions">
                   Compare Platforms
